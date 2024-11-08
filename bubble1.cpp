@@ -1,3 +1,4 @@
+// Using a dynamic array so there is no need to pass array size anymore!
 #include <iostream>
 #include <vector>
 
