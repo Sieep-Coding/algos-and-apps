@@ -30,14 +30,9 @@ void bubbleSort(std::vector<int> &arr)
 int main()
 {
     std::vector<int> arr = {27, 15, 39, 21, 28, 70, 125, 5, 0, 100, 250, 10532, 12, 49};
-
     std::cout << "Data before sort:\n";
-
     displayArray(arr);
-
     bubbleSort(arr);
-
     std::cout << "Sorted Array: ";
-
     displayArray(arr);
 }
