@@ -1,3 +1,5 @@
 # Unignore all dirs
 !*/
 .vscode/
+# Ignore .exe
+*.exe
