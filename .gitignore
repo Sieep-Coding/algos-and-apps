@@ -3,3 +3,4 @@
 .vscode/
 # Ignore .exe
 *.exe
+*
