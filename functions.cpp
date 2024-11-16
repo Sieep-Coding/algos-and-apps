@@ -1,16 +1,14 @@
 #include <stdio.h>
 
-int find_max();
+void find_max();
 
 int main()
 {
-    int z;
-    z = find_max();
-    printf("Maximum value is : %d \n", z);
+    find_max();
     return 0;
 }
 
-int find_max()
+void find_max()
 {
     int x, y, max;
     printf("Enter any 2 values: \n");
@@ -19,5 +17,5 @@ int find_max()
         max = x;
     else
         max = y;
-    return max;
+    printf("Maximum value is : %d \n", max);
 }
